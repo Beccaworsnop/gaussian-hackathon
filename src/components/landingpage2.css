@@ -1,0 +1,49 @@
+page2-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .quote {
+    font-size: 1.2rem;
+    background-color: #d0e7c5;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .quote-symbol {
+    font-size: 2rem;
+  }
+  
+  .images-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .image-wrapper {
+    text-align: center;
+    background-color: #395227;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  .image {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .image-caption {
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+  }
