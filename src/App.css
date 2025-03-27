@@ -1,0 +1,74 @@
+/* Style de la barre de navigation */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #1a3d1a;
+  color: white;
+}
+
+.logo {
+  height: 100px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+.auth-buttons .login {
+  border: 1px solid white;
+  background: transparent;
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: white;
+  margin-right: 10px;
+}
+
+.auth-buttons .signup {
+  background-color: white;
+  color: #1a3d1a;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+/* Style de la section principale */
+.hero-section {
+  text-align: center;
+  background-color: #1a3d1a;
+  color: white;
+  padding: 50px 20px;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.image-gallery img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.learn-more {
+  background-color: #ff914d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+html, body, #root {
+  min-height: 500vh;
+}
+
+.eco-tips {
+  min-height: 500px;
+}

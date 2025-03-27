@@ -1,0 +1,63 @@
+.interactive-tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.tools-text {
+    width: 50%;
+}
+
+.tools-text h2 {
+    font-size: 1.8rem;
+    color: #2d411d;
+}
+
+.tools-text p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.learn-more-btn {
+    background-color: #c7772f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.tools-list {
+    width: 50%;
+    background-color: #c7772f;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tools-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tools-list ul li {
+    font-size: 1rem;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.full-schedule-btn {
+    display: block;
+    width: 100%;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer;
+    text-decoration: underline;
+}

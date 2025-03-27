@@ -1,0 +1,41 @@
+.animal-rights {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2d411d; /* Vert foncé */
+    color: white;
+    padding: 40px;
+}
+
+.text-content {
+    width: 50%;
+}
+
+.text-content h2 {
+    font-size: 2rem;
+}
+
+.text-content p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.download-btn {
+    background-color: #c7772f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.image-container {
+    width: 50%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}

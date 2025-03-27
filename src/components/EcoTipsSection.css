@@ -1,0 +1,52 @@
+.eco-tips {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+}
+
+.eco-tips h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.eco-image {
+  width: 80%;
+  height:auto;
+  border-radius: 20px;
+}
+
+.eco-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.eco-card {
+  background: #1f3d1f;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.eco-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.eco-card p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.eco-card a {
+  display: inline-block;
+  background: orange;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
