@@ -1,0 +1,22 @@
+.thank-you-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .thank-you-container h1 {
+    font-size: 3rem; 
+    color: #000100; 
+  }
+  
+  .thank-you-image {
+    width: 600px;  
+    height: auto;  
+    margin-top: 20px;
+  }
+  
+  .message {
+    font-size: 2rem; 
+    color: #f5f9ab; 
+    font-weight: bold;
+  }
+  
