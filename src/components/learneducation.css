@@ -1,0 +1,58 @@
+.climate-cards-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    background-color: #2e502c;
+  }
+  
+  .climate-card {
+    background: #dfefc5;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .climate-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .learn-more {
+    background-color: #29652b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background 0.3s;
+  }
+  
+  .learn-more:hover {
+    background-color: #388e3c;
+  }
