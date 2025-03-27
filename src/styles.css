@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .logo {
+    height: 150px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .login, .signup {
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .signup {
+    background-color: green;
+    color: white;
+  }
+  
+  .question-container {
+    padding: 40px;
+    text-align:droit ;
+  }
+  
+  .choices {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .choices li {
+    margin: 20px 0;
+  }
+  
+  .next-button {
+    font-size: 1.5rem; 
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;  
+    margin: 10px auto; 
+    text-align: center;
+  }
+  .next-button:hover {
+    background-color: darkgreen;
+  }
+  .timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .timer-icon {
+    height: 20px;
+    margin-right: 10px;
+  }
+  
