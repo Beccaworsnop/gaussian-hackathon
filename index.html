@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="donation-form">
+            <h2>ENTER YOUR PAYMENT DETAILS FOR THIS DONATION</h2>
+            <p>HERE ARE THE LIST OF ITEMS YOU ARE PAYING FOR:</p>
+
+            <div class="donation-list">
+                <ul>
+                    <li>
+                        Build sanctuary for wildlife - £130.96 
+                        <button class="remove-btn">REMOVE</button>
+                    </li>
+                    <li>
+                        Habitat Restoration Volunteer - £150.67 
+                        <button class="remove-btn">REMOVE</button>
+                    </li>
+                </ul>
+            </div>
+
+            <h3>PAYMENT INFO:</h3>
+
+            <label>Name on Card:</label>
+            <input type="text" placeholder="YOUR NAME" class="full-width">
+
+            <label>Card Number:</label>
+            <input type="text" placeholder="0000 - 0000 - 0000 - 0000" class="full-width">
+
+            <label>Expiry Date:</label>
+            <div class="expiry-fields">
+                <input type="text" placeholder="01" class="small-input">
+                <input type="text" placeholder="01" class="small-input">
+                <input type="text" placeholder="2027" class="large-input">
+            </div>
+
+            <div class="checkout-container">
+                <div class="cvc">
+                    <label>CVC / Security Code:</label>
+                    <input type="text" placeholder="001" class="small-input security">
+                </div>
+                <button class="checkout-btn">CONFIRM CHECKOUT</button>
+            </div>
+        </div>
+
+        <div class="donation-image">
+            <img src="images/fox.jpg" alt="Fox Image">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

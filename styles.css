@@ -1,0 +1,123 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    max-width: 900px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Left side: Donation form */
+.donation-form {
+    flex: 1;
+    padding-right: 20px;
+}
+
+h2, h3 {
+    font-size: 16px;
+    color: #333;
+}
+
+.donation-list {
+    background-color: #d8e4d1;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.donation-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.donation-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.remove-btn {
+    background: none;
+    border: none;
+    color: #555;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Input fields */
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    background-color: #d8e4d1;
+    color: #333;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.expiry-fields {
+    display: flex;
+    gap: 5px;
+}
+
+.small-input {
+    width: 40px;
+    text-align: center;
+}
+
+.large-input {
+    width: 70px;
+}
+
+/* Security code aligned with button */
+.checkout-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.security {
+    width: 60px;
+    text-align: center;
+}
+
+/* Checkout button */
+.checkout-btn {
+    background-color: #2d3b1a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Right side: Image */
+.donation-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.donation-image img {
+    max-width: 200px;
+    border-radius: 10px;
+    border: 2px solid #2d3b1a;
+} 

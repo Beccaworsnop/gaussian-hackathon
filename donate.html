@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Now</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="donation-container">
+        <h2>Enter Your Payment Details for This Donation</h2>
+        
+        <div class="donation-list">
+            <ul>
+                <li>Build sanctuary for wildlife - £130.96 <button class="remove-btn">Remove</button></li>
+                <li>Habitat Restoration Volunteer - £150.67 <button class="remove-btn">Remove</button></li>
+            </ul>
+        </div>
+
+        <div class="payment-form">
+            <h3>Payment Info:</h3>
+            <form id="donationForm">
+                <label>Name on Card:</label>
+                <input type="text" placeholder="Your Name" required>
+                
+                <label>Card Number:</label>
+                <input type="text" placeholder="0000 - 0000 - 0000 - 0000" required>
+
+                <label>Expiry Date:</label>
+                <input type="text" placeholder="MM" required>
+                <input type="text" placeholder="YY" required>
+
+                <label>CVC / Security Code:</label>
+                <input type="text" placeholder="CVC" required>
+
+                <button type="submit" class="btn">Confirm Checkout</button>
+            </form>
+        </div>
+
+        <div class="donation-image">
+            <img src="images/fox.jpg" alt="Fox Image">
+        </div>
+    </div>
+</body>
+</html> 
