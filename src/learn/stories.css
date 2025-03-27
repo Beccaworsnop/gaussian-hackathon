@@ -1,0 +1,117 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  /* Animals Section */
+  .animals-section {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 80px;
+    width: 100%;
+  }
+  
+  .section-title {
+    font-size: 4rem;
+    color: #4d5927;
+    font-weight: bold;
+  }
+  
+  .stories-text {
+    color: #d2873c;
+    font-size: 2rem;
+  }
+  
+  .section-description {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .learn-more-btn {
+    background-color: #d2873c;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #a6642c;
+  }
+  
+  /* Learn Section */
+  .learn-section {
+    text-align: center;
+    padding: 60px;
+    width: 100%;
+  }
+  
+  .learn-title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .underline {
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    background-color: #4d5927;
+    margin-right: 10px;
+  }
+  
+  .light-text {
+    color: gray;
+  }
+  
+  .learn-description {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .stories-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .stories-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .story-card {
+    border: 2px solid black;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .story-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .story-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .story-card button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }

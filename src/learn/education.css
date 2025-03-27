@@ -1,0 +1,67 @@
+.education-corner {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .info-section {
+    background: #fff;
+    padding: 15px;
+    border-left: 4px solid red;
+    margin-bottom: 20px;
+  }
+  
+  .info-title {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .info-text {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .climate-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .climate-image {
+    width: 100%;
+    height: auto;
+    filter: brightness(80%);
+  }
+  
+  .climate-text {
+    position: absolute;
+    background: rgba(34, 85, 34, 0.9);
+    color: white;
+    padding: 20px;
+    max-width: 60%;
+  }
+  
+  .climate-text h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .climate-text p {
+    font-size: 16px;
+  }
+  
+  .learn-more {
+    background: #d68c2c;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .learn-more:hover {
+    background: #b06e21;
+  }

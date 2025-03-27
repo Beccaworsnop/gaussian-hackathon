@@ -1,0 +1,104 @@
+.take-action-container {
+    padding: 40px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Donation Section */
+  .donation-projects {
+    margin-bottom: 50px;
+  }
+  
+  .project-card {
+    display: flex;
+    align-items: center;
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  .project-image {
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  .project-info {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .progress-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .progress-bar input {
+    flex: 1;
+  }
+  
+  .donation-buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    background: #4caf50;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .donation-buttons .custom {
+    background: #ff9800;
+  }
+  
+  .donate-now {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #e91e63;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Volunteer Section */
+  .volunteer {
+    margin-top: 30px;
+  }
+  
+  .volunteer-card {
+    display: flex;
+    align-items: center;
+    background: #e8f5e9;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  .volunteer-image {
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  .volunteer-info {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .location {
+    color: #388e3c;
+    font-weight: bold;
+  }
+  
+  .time {
+    color: #2e7d32;
+    font-weight: bold;
+  }
+  
+  .take-part {
+    background: #43a047;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
