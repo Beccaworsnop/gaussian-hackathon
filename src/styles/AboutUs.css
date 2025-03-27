@@ -1,0 +1,66 @@
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .about-text {
+    width: 70%;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  .underline {
+    color: darkgreen;
+    margin-right: 10px;
+  }
+  
+  .gray {
+    color: gray;
+  }
+  
+  .about-text p {
+    margin: 40px 0;
+    font-size: 1.1rem;
+  }
+  
+  .see-more {
+    padding: 10px 20px;
+    border: 2px solid darkgreen;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  .see-more:hover {
+    background: darkgreen;
+    color: white;
+  }
+  
+  .about-image {
+    position: relative;
+    width: 45%;
+  }
+  
+  .about-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+  }
+  
+  .donate {
+    color: lightgreen;
+    font-weight: bold;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
